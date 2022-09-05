@@ -566,3 +566,213 @@ nav {
     font-weight: bold;
     padding-bottom: 1rem;
 }
+
+
+/* --------==============-------- */
+
+
+/* @media only screen and (max-device-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header,
+    nav>a {
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    .nav-item {
+        width: fit-content;
+        position: relative;
+        left: 6rem;
+    }
+    .header-text {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-text>p {
+        width: 300px;
+        text-align: center;
+    }
+    .download-email button {
+        right: 9rem;
+        width: fit-content;
+        padding: 1px;
+        top: 2.4rem;
+    }
+    .download-email input {
+        width: fit-content;
+    }
+    .header-image,
+    .img>img {
+        top: 1rem;
+        left: -2rem;
+        width: 45%;
+        margin-left: 3rem;
+    }
+    /*  
+    .num1 {
+        padding: 0 0.5rem;
+    }
+
+    .banner>img,
+    .banner {
+        width: 96%;
+        height: 50%;
+        margin: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    .round-button {
+        left: 8rem;
+        top: 10rem;
+    }
+    /*  
+    .main-block {
+        margin: 0 0.1rem 0 -1rem;
+    }
+    .block1,
+    .block2,
+    .block3 {
+        display: block;
+    }
+    .block1>p,
+    .block2>p,
+    .block3>p {
+        width: 300px;
+    }
+    .block1-img1,
+    .block2-img {
+        float: left;
+        left: 4rem;
+        top: -2rem;
+        width: 15rem;
+    }
+    .block1-img1 {
+        width: fit-content;
+    }
+    /*
+    .block1-img1>img {
+        width: 25rem;
+        height: 13rem;
+        margin-bottom: 2rem;
+    }
+    /*  
+    .block2-img {
+        position: absolute;
+        left: 1rem;
+        top: 10rem;
+    } */
+
+
+/* }  */
+
+
+/* ==================== */
+
+@media (max-width: 700px) {
+    header,
+    .header-image {
+        /* height: fit-content; */
+        padding: 0rem;
+        width: fit-content;
+        display: block;
+        top: 0;
+    }
+    .img,
+    .img>img,
+    .header-image {
+        position: absolute;
+        display: hidden;
+    }
+    .logo {
+        height: 2rem;
+        top: -5rem;
+        margin-left: 2rem;
+    }
+    .header-text {
+        padding: 0 2rem;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        font-size: 1rem;
+        margin-top: -2rem;
+    }
+    .header-text>h2 {
+        font-size: 2rem;
+    }
+    .header-text>p {
+        font-size: 1rem;
+    }
+    .download-email input {
+        width: 15rem;
+    }
+    .download-email input,
+    .download-email button {
+        /* width: fit-content; */
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .download-email button {
+        margin-top: 0.2rem;
+        right: 10rem;
+    }
+    .nav-item {
+        display: hidden;
+    }
+    .num {
+        display: block;
+    }
+    .block1,
+    .block2,
+    .block3 {
+        margin: 1rem;
+        padding: 1rem;
+        /* justify-content: center; */
+        width: fit-content;
+    }
+    .block1-img1,
+    .block2-img,
+    .block3-img {
+        display: block;
+        width: fit-content;
+    }
+    .block3-img {
+        margin-bottom: 5rem;
+    }
+    .teams-section {
+        display: block;
+        width: fit-content;
+    }
+    .teams-section>div>p {
+        margin-top: 0;
+    }
+    .cards {
+        display: block;
+    }
+    .content {
+        padding: 1rem;
+    }
+    .top {
+        display: block;
+    }
+    .media-icons {
+        left: 5rem;
+        top: -2.5rem;
+    }
+    .link-boxes {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
